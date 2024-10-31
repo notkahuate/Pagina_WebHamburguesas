@@ -19,14 +19,15 @@ nav {
   padding: 1rem;
   background-color: #1E1D2B;
   color: white;
-  position: relative;
+  position: fixed;
+  width: 100%;
 }
 
 nav h2{
     color: rgb(224, 105, 8)
 }
 
-/* responsive */
+
 nav.active {
   flex-direction: column;
   align-items: flex-start;
@@ -46,6 +47,7 @@ nav .bars {
 
 ul.nav-links {
   display: flex;
+  text-align: end;
 }
 
 /* responsive */
@@ -104,19 +106,19 @@ h1{
 
 }
 
-img{
+.img1{
     filter: drop-shadow(
         0 0 10px rgb(255, 255, 255)
     );
     position: absolute;
     width: 600px;
     height: 600px;
-    margin-top: 5%;
+    margin-top: 7%;
 
     
 }
 
-figure{
+.fig{
     position: absolute;
     left: 50%;
     right: 10%;
@@ -165,9 +167,12 @@ h2{
   width: 100vh;
   height: 100vh;
   color: #ccc;
+}
+.about_sec{
   position: absolute;
   left: 50%;
   right: 10%;
+  margin-top: 10%;
 }
 
 .about div{
@@ -178,6 +183,26 @@ h2{
 .about p{
   font-size: 30px;
   margin-bottom: 30px;
+}
+
+.fig2{
+  position: absolute;
+  left: 10%;
+  right: 50%;
+  margin-top: 10%;
+
+}
+
+.menu{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#txt{
+  margin-top: 10px;
+  font-size: 30px;
+  color: white;
 }
 
 
