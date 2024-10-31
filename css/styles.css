@@ -8,7 +8,7 @@
 
 body {
   min-height: 100vh;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #1E1D2B;
 }
 
@@ -23,7 +23,7 @@ nav {
 }
 
 nav h2{
-    color: orange;
+    color: rgb(224, 105, 8)
 }
 
 /* responsive */
@@ -89,15 +89,15 @@ li.nav-link a {
 }
 
 h1{
-    color: orange;
-    font-size: 100px !important;
+    color: rgb(224, 105, 8);
+    font-size: 80px !important;
    
 }
 
-main{
+.home{
     position: absolute;
     left: 10%;
-    right: 40%;
+    right: 50%;
     top: 40%;
     color: white;
     font-size: 20px;
@@ -109,6 +109,9 @@ img{
         0 0 10px rgb(255, 255, 255)
     );
     position: absolute;
+    width: 600px;
+    height: 600px;
+    margin-top: 5%;
 
     
 }
@@ -119,5 +122,66 @@ figure{
     right: 10%;
     top: 10%;
 }
+
+.text{
+  margin-bottom: 40px;
+}
+
+a{
+  padding: 10px;
+}
+.button {
+  width: 100px; 
+  height: 100px; 
+  background-color: rgb(224, 105, 8); 
+  color: white; 
+  text-align: center;
+  text-decoration: none; 
+  border: none; 
+  transition: background-color 0.3s, color 0.3s; 
+
+}
+
+.button:hover {
+  background-color: white; 
+  color: rgb(224, 105, 8); 
+}
+
+.inicio{
+  width: 100vh;
+  height: 100vh;
+  
+}
+
+
+
+
+h2{
+  color: rgb(224, 105, 8);
+}
+
+
+.about{
+  width: 100vh;
+  height: 100vh;
+  color: #ccc;
+  position: absolute;
+  left: 50%;
+  right: 10%;
+}
+
+.about div{
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+.about p{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+
 
 
