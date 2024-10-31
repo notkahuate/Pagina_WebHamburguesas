@@ -160,38 +160,42 @@ h2{
   color: rgb(224, 105, 8);
 }
 
-
-.about{
-  width: 100%;
-  height: 600px;
-  color: #ccc;
+.about {
+  text-align: left; 
 }
 
-.about_sec{
-  position: absolute;
-  left: 50%;
-  right: 10%;
-  margin-top: 5%;
+.fig2, .about_sec {
+  display: inline-block; 
+  vertical-align: top; 
+  margin-top: 15%;
+}
 
+.fig2 {
+  margin-right: 15%; 
+  margin-left: 10%;
+
+}
+
+.img2 {
+  max-width: 100%; 
+  height: auto;
 }
 
 .about_sec div{
   font-size: 60px;
   margin-bottom: 60px;
+  color: white;
 }
 
 .about_sec p{
   font-size: 30px;
   margin-bottom: 30px;
+  color: white;
 }
 
-.fig2{
-  position: absolute;
-  left: 10%;
-  right: 50%;
-  margin-top: 10%;
 
-}
+
+
 
 .menu{
   width: 100%;
@@ -214,6 +218,11 @@ h2{
 
 }
 
+.ult{
+  margin-bottom: 4%;
+  color: rgb(224, 105, 8);
+}
+
 .figuras {
   text-align: center; 
 }
@@ -228,7 +237,27 @@ h2{
 .service{
   width: 100%;
   height: 100%;
+  text-align: center;
+  margin-top: 10%;
 }
+
+.serv{
+  display: inline-block;
+  margin-top: 2%;
+}
+
+
+#title{
+  color: rgb(224, 105, 8);
+  font-size: 20px;
+}
+
+#texto{
+  color: white;
+  font-size: 15px;
+}
+
+
 
 
 
