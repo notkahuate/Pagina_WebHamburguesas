@@ -4,3 +4,4 @@ const nav = document.querySelector("nav");
 bars.onclick = () => {
   nav.classList.toggle("active");
 };
+

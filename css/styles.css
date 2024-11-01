@@ -94,7 +94,7 @@ li.nav-link a {
 
 h1{
     color: rgb(224, 105, 8);
-    font-size: 80px !important;
+    font-size: 80px ;
    
 }
 
@@ -260,7 +260,6 @@ h2{
 }
 
 .contact{
-  position: absolute;
   width: 100%;
   height: 100%;
   margin-top: 5%;
@@ -269,7 +268,7 @@ h2{
 }
 
 .cuadrado{
-  position: absolute;
+  
   background-color: beige;
   width: 800px;
   height: 300px;
@@ -286,10 +285,32 @@ h2{
   margin-bottom: 5%;
 }
 
+.foot{
+  width: 100%;
+  height: 100%;
+}
+
+.t1{
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 7%;
+  color: white;
+  margin-top: 5%;
+
+}
 
 
+#tl{
+  font-size: 40px;
+  color: white;
+}
 
+@media screen and (max-width: 800px) {
+    nav .bars {
+        display: block;
+    }
 
-
-
-
+    nav .nav-links {
+        display: none;
+    }
+}
